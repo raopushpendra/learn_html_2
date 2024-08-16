@@ -10,7 +10,7 @@ p{
     color: grey;
     }
 nav{
-    border-bottom: 5px solid;
+    border-bottom: 5px solid black;
 }
 a:link{
     margin-left: 20px;
