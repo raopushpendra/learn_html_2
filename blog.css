@@ -10,7 +10,7 @@ p{
     color: grey;
     }
 nav{
-    border-bottom: 10px black;
+    border-bottom: 10px solid black;
 }
 a:link{
     margin-left: 20px;
@@ -59,9 +59,6 @@ aside p{
     width:300px;
     color: rgb(140, 137, 137);
     }
-ul  h3{ 
-    word-spacing: 5px;
-}
 .links{
     filter:grayscale(100%);
 }
