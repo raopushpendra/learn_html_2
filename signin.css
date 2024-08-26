@@ -5,17 +5,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 45vw;
+    width: 99vw;
 }
 
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .box{
-    height: 100%;
-    width: 150vh;
     background-color: #ffffff;
     border-radius: 10px;
     display: flex;
@@ -23,15 +19,40 @@ body{
     align-items: center;
 }
 
+.left-section{
+    padding-bottom: 90px;
+}
+
 .left-section span{
     font-size: x-large;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    padding-left: 30px;
+}
+
+.left-section p{
+    padding-left: 30px;
+}
+
+.left-section img{
+    padding-left: 25px;
+}
+
+.right-section{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    padding-right: 30px;
 }
 
 .right-section input{
     border-radius: 5px;
+    width: 360px;
+    height: 50px;
+}
+
+.right-section p{
+    font-size: small;
 }
 
 .right-section button{
@@ -45,4 +66,9 @@ body{
     text-decoration: none;
     font-size: small;
     font-weight: bold;
+}
+
+.outside{
+    display: flex;
+    justify-content: space-between;
 }
