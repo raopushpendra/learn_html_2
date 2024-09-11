@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grid</title>
+        <style>
+            .grid-container.autofill {
+                border: 1px solid black;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+                gap: 10px;
+                width: 100%;
+                padding: 10px;
+            }
+            .grid-item {
+                background-color: #e0e0e0;
+                padding: 20px;
+                border: 1px solid #ccc;
+                text-align: center;
+            }
+            .grid-container.autofit {
+                border: 1px solid black;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+                gap: 10px;
+                width: 100%;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>AUTO-FILL</h1>
+        <div class="grid-container autofill">
+            <div class="grid-item">Item 1</div>
+            <div class="grid-item">Item 2</div>
+            <div class="grid-item">Item 3</div>
+            <div class="grid-item">Item 4</div>
+            <div class="grid-item">Item 5</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h1>AUTO-FIT</h1>
+        <div class="grid-container autofit">
+            <div class="grid-item">Item 1</div>
+            <div class="grid-item">Item 2</div>
+            <div class="grid-item">Item 3</div>
+            <div class="grid-item">Item 4</div>
+            <div class="grid-item">Item 5</div>
+        </div>
+    </body>
+</html>
