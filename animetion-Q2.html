@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animetion</title>
+        <style>
+            .box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                padding-top: 320px;
+            }
+            .a{
+                width: 0px;
+                height: 50px;
+                border: 10px solid rgb(8, 194, 255);
+                animation: p 1000ms linear infinite;
+            }
+            .b{
+                width: 0px;
+                height: 50px;
+                border: 10px solid rgb(8, 194, 255);
+                animation: q 1000ms linear infinite;
+            }
+
+            @keyframes p {
+                0%{
+                    transform: scaleY(1.5);
+                }
+                25%{
+                    transform: scaleY(.5);
+                }
+                50%{
+                    transform: scaleY(1.5);
+                }
+                75%{
+                    transform: scaleY(.5);
+                }
+                100%{
+                    transform: scaleY(1.5);
+                }
+            }
+            @keyframes q {
+                0%{
+                    transform: scaleY(.5);
+                }
+                25%{
+                    transform: scaleY(1.5);
+                }
+                50%{
+                    transform: scaleY(.5);
+                }
+                75%{
+                    transform: scaleY(1.5);
+                }
+                100%{
+                    transform: scaleY(.5);
+                }
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="box">
+                <div class="a"></div>
+                <div class="b"></div>
+                <div class="a"></div>
+                <div class="b"></div>
+                <div class="a"></div>
+        </div>
+    </body>
+</html>
